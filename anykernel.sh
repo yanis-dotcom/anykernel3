@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=Linux Kernel By @UserNob xda-developers
+kernel.string=Linux Kernel = By @UserNob xda-developers
 do.devicecheck=1
 do.modules=0
 do.systemless=1

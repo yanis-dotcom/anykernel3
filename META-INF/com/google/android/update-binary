@@ -550,7 +550,7 @@ if [ -f version ]; then
   ui_printfile version;
   ui_print " ";
 fi;
-ui_print " " "AnyKernel3 by @osm0sis xda-developers" " ";
+ui_print " " "AnyKernel3 = By @osm0sis xda-developers" " ";
 grep -oE 'AK_BASE.*' META-INF/com/google/android/updater-script >&2;
 
 setup_env;
@@ -579,6 +579,6 @@ if [ "$(file_getprop anykernel.sh do.cleanup)" == 1 ]; then
   cleanup;
 fi;
 
-ui_print " " "Done!";
+ui_print " " "Done Please Rebbot System 🍌!";
 export PATH="$OLD_PATH";
 unset OLD_PATH OUTFD ZIPFILE;
