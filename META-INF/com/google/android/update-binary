@@ -570,13 +570,12 @@ fi;
 do_modules;
 
 debugging;
-ui_print " ";
 restore_env;
 
 if [ "$(file_getprop anykernel.sh do.cleanup)" == 1 ]; then
   cleanup;
 fi;
 
-ui_print " " "Done Please Rebbot System 🍌!";
+ui_print " " "Instalasi Kernoll Success, weng Rebbot System 🍌!";
 export PATH="$OLD_PATH";
 unset OLD_PATH OUTFD ZIPFILE;
